@@ -1,19 +1,19 @@
 <script>
   import Navigation from "./components/navigation.vue";
-  import Map from "./components/laws/map.vue";
+  import EmployerBenefits from "./components/employer/employer-benefits.vue";
 
   export default {
     name: "App",
     components: {
       Navigation,
-      Map,
+      EmployerBenefits,
     },
   };
 </script>
 
 <template>
   <Navigation />
-  <Map />
+  <EmployerBenefits />
 </template>
 
 <style>
@@ -24,4 +24,3 @@
     text-align: center;
     color: #2c3e50;
   }
-</style>

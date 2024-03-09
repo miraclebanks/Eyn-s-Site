@@ -1,19 +1,19 @@
 <script>
   import Navigation from "./components/navigation.vue";
-  import Map from "./components/laws/map.vue";
+  import DeathAspects from "./components/legal/death-aspects.vue";
 
   export default {
     name: "App",
     components: {
       Navigation,
-      Map,
+      DeathAspects,
     },
   };
 </script>
 
 <template>
   <Navigation />
-  <Map />
+  <DeathAspects />
 </template>
 
 <style>

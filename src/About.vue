@@ -1,19 +1,22 @@
 <script>
   import Navigation from "./components/navigation.vue";
-  import Map from "./components/laws/map.vue";
+  import AboutBlurb from "./components/about/about-blurb.vue";
+  import AboutCompany from "./components/about/about-company.vue";
 
   export default {
     name: "App",
     components: {
       Navigation,
-      Map,
+      AboutBlurb,
+      AboutCompany,
     },
   };
 </script>
 
 <template>
   <Navigation />
-  <Map />
+  <AboutBlurb />
+  <AboutCompany />
 </template>
 
 <style>

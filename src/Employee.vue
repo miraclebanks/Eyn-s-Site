@@ -1,19 +1,19 @@
 <script>
   import Navigation from "./components/navigation.vue";
-  import Map from "./components/laws/map.vue";
+  import EmployeeBenefits from "./components/employee/employee-benefits.vue";
 
   export default {
     name: "App",
     components: {
       Navigation,
-      Map,
+      EmployeeBenefits,
     },
   };
 </script>
 
 <template>
   <Navigation />
-  <Map />
+  <EmployeeBenefits />
 </template>
 
 <style>
