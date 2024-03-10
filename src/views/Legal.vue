@@ -1,17 +1,16 @@
 <script>
-  import Navigation from "./components/navigation.vue";
+  import DeathAspects from "../components/legal/death-aspects.vue";
 
   export default {
-    name: "App",
+    name: "LegalPage",
     components: {
-      Navigation,
+      DeathAspects,
     },
   };
 </script>
 
 <template>
-  <Navigation />
-  <router-view></router-view>
+  <DeathAspects />
 </template>
 
 <style>

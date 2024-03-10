@@ -1,19 +1,16 @@
 <script>
-  import Navigation from "./components/navigation.vue";
-  import EmployeeBenefits from "./components/employee/employee-benefits.vue";
+  import EmployerBenefits from "../components/employer/employer-benefits.vue";
 
   export default {
-    name: "App",
+    name: "EmployerPage",
     components: {
-      Navigation,
-      EmployeeBenefits,
+      EmployerBenefits,
     },
   };
 </script>
 
 <template>
-  <Navigation />
-  <EmployeeBenefits />
+  <EmployerBenefits />
 </template>
 
 <style>

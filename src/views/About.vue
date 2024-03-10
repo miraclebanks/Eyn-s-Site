@@ -1,12 +1,10 @@
 <script>
-  import Navigation from "./components/navigation.vue";
-  import AboutBlurb from "./components/about/about-blurb.vue";
-  import AboutCompany from "./components/about/about-company.vue";
+  import AboutBlurb from "../components/about/about-blurb.vue";
+  import AboutCompany from "../components/about/about-company.vue";
 
   export default {
-    name: "App",
+    name: "AboutUs",
     components: {
-      Navigation,
       AboutBlurb,
       AboutCompany,
     },
@@ -14,7 +12,6 @@
 </script>
 
 <template>
-  <Navigation />
   <AboutBlurb />
   <AboutCompany />
 </template>

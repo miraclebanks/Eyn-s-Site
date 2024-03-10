@@ -1,19 +1,19 @@
 <script>
-  import Navigation from "./components/navigation.vue";
-  import DeathAspects from "./components/legal/death-aspects.vue";
+  import MainHeader from "../components/mainHeader.vue";
+  import MainCta from "../components/mainCta.vue";
 
   export default {
-    name: "App",
+    name: "HomePage",
     components: {
-      Navigation,
-      DeathAspects,
+      MainHeader,
+      MainCta,
     },
   };
 </script>
 
 <template>
-  <Navigation />
-  <DeathAspects />
+  <MainHeader />
+  <MainCta />
 </template>
 
 <style>

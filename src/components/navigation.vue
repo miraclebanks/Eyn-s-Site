@@ -7,15 +7,25 @@
 <template>
   <div class="nav-container">
     <div class="links">
-      <a> Home</a>
+      <router-link to="/">Home</router-link>
     </div>
     <div class="links">
-      <a> About Us</a>
+      <router-link to="/about">About</router-link>
     </div>
     <div class="links">
-      <a> Contact Us</a>
+      <router-link to="/employee">Employee Benefits</router-link>
+    </div>
+    <div class="links">
+      <router-link to="/employer">Employer Information</router-link>
+    </div>
+    <div class="links">
+      <router-link to="/legal">Legal Information</router-link>
+    </div>
+    <div class="links">
+      <router-link to="/laws">State Laws</router-link>
     </div>
   </div>
+  <router-view></router-view>
 </template>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

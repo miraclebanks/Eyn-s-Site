@@ -1,19 +1,16 @@
 <script>
-  import Navigation from "./components/navigation.vue";
-  import EmployerBenefits from "./components/employer/employer-benefits.vue";
+  import Map from "../components/laws/map.vue";
 
   export default {
-    name: "App",
+    name: "LawsPage",
     components: {
-      Navigation,
-      EmployerBenefits,
+      Map,
     },
   };
 </script>
 
 <template>
-  <Navigation />
-  <EmployerBenefits />
+  <Map />
 </template>
 
 <style>
@@ -24,3 +21,4 @@
     text-align: center;
     color: #2c3e50;
   }
+</style>
