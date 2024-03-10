@@ -11,7 +11,6 @@
 
 <template>
   <Navigation />
-  <router-view></router-view>
 </template>
 
 <style>

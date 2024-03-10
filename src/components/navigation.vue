@@ -25,6 +25,7 @@
       <router-link to="/laws">State Laws</router-link>
     </div>
   </div>
+  <router-view></router-view>
 </template>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
