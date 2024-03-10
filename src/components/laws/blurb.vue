@@ -22,26 +22,13 @@
         causes greater hardship as now a choice has to be made, does the family
         member go to the funeral or stay at work in order to get paid?
       </p>
-      <button
-        @click="toggleShowMore"
-        v-if="!showMore"
-        class="about-blurb-container-buttons"
-      >
-        Learn More
-      </button>
-      <p v-if="showMore" class="about-blurb-container_text-blurb">
+
+      <p class="about-blurb-container_text-blurb">
         Funerals are important for the living, they offer closure, and in many
         cultures are seen as a key part of the grieving process. As bereavement
         leave stands now many miss that opportunity due to the lack of
         compensation for the days off.
       </p>
-      <button
-        @click="toggleShowMore"
-        v-if="showMore"
-        class="about-blurb-container-buttons"
-      >
-        Read less
-      </button>
     </div>
   </div>
 </template>
@@ -62,7 +49,7 @@
         display: flex;
         text-align: justify;
         font-size: 18px;
-        padding: 0px 96px;
+        padding: 0px 200px;
       }
     }
     &-buttons {
