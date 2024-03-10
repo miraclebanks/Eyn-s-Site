@@ -1,6 +1,6 @@
 // router.js
 
-import { createRouter, createWeBashHistory } from "vue-router";
+import { createRouter, createWebHistory } from "vue-router";
 
 // Import your Vue components for each route
 import Home from "./views/Home.vue";
@@ -20,7 +20,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebBashHistory("/EatonFirm/"),
+  history: createWebHistory("/EatonFirm/"),
   routes,
 });
 
